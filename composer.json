@@ -1,0 +1,34 @@
+{
+  "name": "fadriqueclickennet/translation-module",
+  "description": "Module contiene todas las traducciones de Clickennet CMS",
+  "license": "MIT",
+  "require": {
+    "php": "^7.1.3",
+    "composer/installers": "~1.0",
+    "league/csv": "~7.2.0",
+    "venturecraft/revisionable": "^1.34"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.5",
+    "orchestra/testbench": "~3.8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Translation\\": ""
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Translation\\": ".",
+      "Modules\\": "Modules/"
+    }
+  },
+  "authors": [
+    {
+      "name": "fadriqueclickennet",
+      "email": "fadriqueclickennet@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
